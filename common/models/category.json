@@ -10,7 +10,12 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "classes": {
+      "type": "hasAndBelongsToMany",
+      "model": "Tag"
+    }
+  },
   "acls": [],
   "methods": []
 }
