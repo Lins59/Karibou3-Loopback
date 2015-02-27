@@ -33,5 +33,9 @@
   "Category": {
     "dataSource": "mysql",
     "public": true
+  },
+  "CategoryTag": {
+    "dataSource": "mysql",
+    "public": true
   }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "CategoryTag",
+  "plural": "CategoriesTags",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "category": {
+      "type": "belongsTo",
+      "model": "Category",
+      "foreignKey": "categoryId"
+    },
+    "tag": {
+      "type": "belongsTo",
+      "model": "Tag",
+      "foreignKey": "tagId"
+    }
+  },
+  "acls": [],
+  "methods": []
+}

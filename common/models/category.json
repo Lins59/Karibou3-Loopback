@@ -11,9 +11,11 @@
   },
   "validations": [],
   "relations": {
-    "classes": {
-      "type": "hasAndBelongsToMany",
-      "model": "Tag"
+    "tags": {
+      "type": "hasMany",
+      "model": "Tag",
+      "foreignKey": "categoryId",
+      "through": "CategoryTag"
     }
   },
   "acls": [],
