@@ -1,0 +1,17 @@
+{
+  "name": "Tag",
+  "plural": "Tags",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "dataSource": "mysql",
+  "properties": {
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
